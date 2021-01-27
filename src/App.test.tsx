@@ -1,9 +1,5 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
-
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('tests not implemented', () => {
+  throw new Error('Tests not implemented :(');
 });
+
+export { }; // as suggested by typescript due to '--isolatedModules' flag
